@@ -16,13 +16,11 @@ class ProductSeeder extends Seeder
     {
         //
         DB::table('products')->insert([
-            'name' => 'LG Fridge',
-            'price' => '15000',
-            'description' => 'a smart and good cooling ans so much features',
-            'category' => 'Fridge',
-            'gallery' => 'https: //image.shutterstock.com/image-photo/open-refrigerator-filled-fresh-fruits-260nw-1910245906.jpg
-',
+            'name' => 'Samsung TV',
+            'price' => '28000',
+            'category' => 'TV',
+            'gallery' => 'https://www.xda-developers.com/download-the-samsung-galaxy-s21-fe-wallpapers-here/',
+            'description' => 'a smart TV and much more feature',
         ]);
-
     }
 }
